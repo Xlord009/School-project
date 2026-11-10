@@ -1,4 +1,5 @@
 score = 0
+print("Quiz de 5 questions: pour réussir le quiz il faut plus de 2 points")
 
 question1 = input("Vrai ou faux: Le WWW est sorti en 1986 ")
 if question1 == "Faux" or "faux" or 'fake' or 'f':
@@ -46,6 +47,7 @@ else:
 
 print(score)
 if score <= 3:
-    print(f'vous avez eu {score} point!')
+    print(f'Vous avez eu {score} point! Vous avez reussi le quiz!')
+
 else:
-    print(f'vous avex echouer le quiz')
+    print(f'Vous avez eu {score} point. Vous avez échoué le quiz.')
