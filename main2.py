@@ -45,7 +45,7 @@ else:
 
 
 print(score)
-if score <= 3:
+if score >= 3:
     print(f'Vous avez eu {score} point! Vous avez reussi le quiz!')
 else:
     print(f'Vous avez eu {score} point. Vous avez échoué le quiz.')
