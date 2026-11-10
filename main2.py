@@ -44,8 +44,8 @@ else:
 
 
 
-print(f"{score}")
+print(score)
 if score <= 3:
     print(f'vous avez eu {score} point!')
 else:
-    print(f'vous avex echouer le ')
+    print(f'vous avex echouer le quiz')
