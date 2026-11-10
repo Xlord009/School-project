@@ -1,7 +1,5 @@
 score = 0
 
-
-
 question1 = input("Vrai ou faux: Le WWW est sorti en 1986 ")
 if question1 == "Faux" or "faux" or 'fake' or 'f':
     score =+ 1
@@ -48,4 +46,6 @@ else:
 
 print(f"{score}")
 if score <= 3:
-    webbrowser.open("happycat.gif")
+    print(f'vous avez eu {score} point!')
+else:
+    print(f'vous avex echouer le ')
